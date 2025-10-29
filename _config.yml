@@ -3,7 +3,7 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
 # Basic Site Settings
@@ -25,7 +25,7 @@ author:
   avatar           : "kaiwen.png"
   name             : "Kaiwen Zuo"
   pronouns         : "He/Him"
-  bio              : "Ph.D. in Electrical Engineering, Case Western Reserve University"
+  bio              : "Ph.D. candidate @CWRU EE"
   location         : "Cleveland, OH, US"
   employer         : "Case Western Reserve University"
   email            : "kxz365@case.edu"
