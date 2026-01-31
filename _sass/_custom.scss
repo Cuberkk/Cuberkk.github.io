@@ -16,3 +16,24 @@
     font-size: 1em;
     text-align: justify;
 }
+
+.ai-google-scholar {
+  color: #4285F4;  // Google scholar blue
+}
+
+.author__urls .fa-location-dot {
+  color: #e74c3c;  // Red
+}
+
+/* style the author links list */
+.author__urls li {
+  display: flex;
+  align-items: left;
+}
+
+/* give icon a fixed width */
+.author__urls i {
+  width: 1.5em;
+  text-align: center;    // icon center in the box
+  margin-right: 0.5em;
+}
