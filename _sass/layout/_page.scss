@@ -36,6 +36,7 @@
 
 .page__title {
   margin-top: 0;
+  margin-bottom: 0;
   line-height: 1;
 
   & + .page__meta {
@@ -45,7 +46,7 @@
 
 .page__lead {
   font-family: $global-font-family;
-  font-size: $type-size-4;
+  font-size: $type-size-6;
 }
 
 .page__content {
@@ -151,7 +152,7 @@
     }
 
     .page__title {
-      font-size: $type-size-2;
+      font-size: $type-size-1;
 
       @include breakpoint($small) {
         font-size: $type-size-1;

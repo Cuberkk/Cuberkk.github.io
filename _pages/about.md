@@ -1,17 +1,22 @@
 ---
 permalink: /
 title: "🎊 Welcome to my website!"
-author_profile: true
+author_profile: True
 redirect_from: 
   - /about/
   - /about.html
 ---
-<hr style="margin-top: -0.25em; margin-bottom: 1em;">
-I am currently a 2nd-year Ph.D. candidate majoring in Electrical Engineering at Case Western Reserve University under the supervison of [Prof. Zonghe Chua](https://case.edu/engineering/about/faculty-and-staff-directory/zonghe-chua). I am a detail oriented PhD student interested in human robot interaction, ​legged robots, machine learning and control. I love to collaborate and work with different people on multi-disciplinary projects. And from extensive course work, I have built up a solid background in mathematics and dynamic modeling. ​
+<hr class="custom-hr">
+<p class="subsection">
+🧐 About Me
+</p>
+<p class="main_text">
+I am currently a 2nd-year Ph.D. candidate majoring in Electrical Engineering at <a href="https://case.edu/">Case Western Reserve University(CWRU)</a>, working under the supervision of <a href="https://case.edu/engineering/about/faculty-and-staff-directory/zonghe-chua">Prof. Zonghe Chua</a> in the <a href="https://enhanced-telerobotics.github.io/index.html">Enhanced Robotic Interfaces & Experiences(ERIE) Lab</a>. I received my M.S. in Mechanical Engineering from CWRU, where I also worked under the supervision of Prof. Chua. I received my B.S. in Mechanical Design, Manufacturing, and Automation from <a href="https://english.hust.edu.cn/">HUST</a> in China.
+</p>
 
-Previously during my master’s study at Case Western Reserve University (CWRU), I worked on the hexapod design and control project in the CRAB lab supervised by Prof. Kathryn Daltorio, and the joint hexapods locomotion project with National University of Singapore(NUS) supervised by Prof. Guillaume Sartoretti.
-
-I received my Bachelor’s degree from Southern University of Science and Technology (SUSTech), China in 2019 with my major in Mechanical Engineering. During this period, I worked on quadruped robot design and control in CLEAR Lab with Prof. Wei Zhang.
-
-Please find my CV here for more about my research projects and background. And please feel free to contact me for any questions or opportunities.
-
+<p class="subsection">
+🧩 Research Interests:
+</p>
+<p class="main_text">
+My research interests lies in vision-based sensing, soft robotic grippers, physical simulation and machine learning. I love to collaborate and work with different people on multi-disciplinary projects. And from extensive course work, I have built up a solid background in mathematics and dynamic modeling. ​
+</p>
