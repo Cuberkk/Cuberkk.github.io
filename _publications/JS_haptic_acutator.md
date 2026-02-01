@@ -12,3 +12,11 @@ citation: 'J. Su, K. Zuo and Z. Chua, "Three Degree-of-Freedom Soft Continuum Ki
 ---
 
 Sensory substitution is an effective approach for displaying stable haptic feedback to a teleoperator under time delay. The finger is highly articulated, and can sense movement and force in many directions, making it a promising location for sensory substitution based on kinesthetic feedback. However, existing finger kinesthetic devices either provide only one-degree-of-freedom feedback, are bulky, or have low force output. Soft pneumatic actuators have high power density, making them suitable for realizing high force kinesthetic feedback in a compact form factor. We present a soft pneumatic handheld kinesthetic feedback device for the index finger that is controlled using a constant curvature kinematic model. 
+
+
+<figure class="paper-figure-png">
+  <img src="http://Cuberkk.github.io/files/JS2024/device_new.png" alt="System overview">
+  <figcaption>
+    The fabricated soft pneumatic continuum haptic device used in a handheld configuration for sensory substitution to the finger.
+  </figcaption>
+</figure>

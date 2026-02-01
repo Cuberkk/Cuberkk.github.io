@@ -44,3 +44,22 @@
   text-align: center;    // icon center in the box
   margin-right: 0.5em;
 }
+
+.paper-figure-png {
+  max-width: 900px;
+  margin: 2em auto;        // figure 本身居中（建立中心轴）
+}
+
+.paper-figure-png img {
+  display: block;          // 去掉 inline 偏移
+  margin-left: auto;
+  margin-right: auto;     // ⭐ img 的几何中心 = figure 中心
+}
+
+.paper-figure-png figcaption {
+  margin-top: 0.6em;
+  margin-left: auto;
+  margin-right: auto; 
+  font-size: 0.9em;
+  // color: var(--global-text-color-light);
+}
