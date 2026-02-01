@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Kaiwen's Website"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Kaiwen Zuo"
 description              : &description "I am Kaiwen Zuo, a PhD student at Case Western Reserve University. My research interests include vision-based force sensing, soft robotics, and position-based dynamics."
