@@ -46,7 +46,7 @@
 }
 
 .paper-figure-png {
-  max-width: 900px;
+  max-width: 600px;
   margin: 2em auto;        // figure 本身居中（建立中心轴）
 }
 
@@ -62,4 +62,37 @@
   margin-right: auto; 
   font-size: 0.9em;
   // color: var(--global-text-color-light);
+}
+
+.archive__item-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 0;
+}
+
+.archive__item-cover {
+  flex: 0 0 auto;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;  
+  background: #fff;
+  border: 2px solid  #998e8e;
+  border-radius: 4px;
+  overflow: hidden;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    display: block;
+  }
+}
+
+.archive__item-content {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;   // ⭐ 顶部对齐
 }
