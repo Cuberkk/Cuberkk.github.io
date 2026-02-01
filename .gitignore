@@ -20,4 +20,4 @@ package-lock.json
 .vscode/
 
 # Ignore system files
-*.DS_Store
+.DS_Store
