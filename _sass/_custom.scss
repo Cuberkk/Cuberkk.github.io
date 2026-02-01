@@ -5,6 +5,13 @@
   margin-bottom: 0.25em;
 }
 
+.pubtitle-hr {
+  border: none;
+  border-top: 3px solid #000000;
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
+}
+
 .subtitle-hr {
   border: none;
   border-top: 1px solid #b3b1b1;
@@ -46,7 +53,7 @@
 }
 
 .paper-figure-png {
-  max-width: 600px;
+  max-width: 500px;
   margin: 2em auto;        // figure 本身居中（建立中心轴）
 }
 
@@ -96,3 +103,9 @@
   display: flex;
   align-items: flex-start;   // ⭐ 顶部对齐
 }
+
+.pub-num{
+  font-size: 1.1em;
+  font-weight: bold;
+}
+

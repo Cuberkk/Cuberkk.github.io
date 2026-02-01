@@ -10,7 +10,7 @@ venue: 'IEEE Robotics and Automation Letters(RA-L)'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'http://Cuberkk.github.io/files/JZ2025/A_High_Load_Density_Miniature_Force_Sensor_for_Probing_With_Robot_Feet.pdf'
 bibtexurl: 'http://Cuberkk.github.io/files/JZ2025/JZ2025.bib'
-citation: 'J. Zhou, J. Su, <strong>K. Zuo</strong>, M. Pan, Z. Chua and K. A. Daltorio, "A High Load Density Miniature Force Sensor for Probing With Robot Feet," in IEEE Robotics and Automation Letters, vol. 11, no. 1, pp. 450-457, Jan. 2026.'
+citation: 'J. Zhou, J. Su, <strong>K. Zuo</strong>, M. Pan, Z. Chua and K. A. Daltorio<sup>*</sup>, "A High Load Density Miniature Force Sensor for Probing With Robot Feet," in IEEE Robotics and Automation Letters, vol. 11, no. 1, pp. 450-457, Jan. 2026.'
 ---
 <p class="main_text">
 Force sensing on the end effector is crucial for mobile, legged robots to adapt to varying terrain and manipulate objects

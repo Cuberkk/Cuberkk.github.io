@@ -1,3 +1,24 @@
+// My stuff
+.link-title-style {
+  font-family: $header-font-family;
+  font-size: $type-size-4;
+  font-weight: bold;
+  line-height: 1.2;
+  color: var(--global-link-color);
+}
+
+.entry-box {
+  display: inline-block;     // ⭐ 关键：宽度 = 内容
+  padding: 0.35em 0.75em;
+  margin: 0;   
+
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+
+  font-size: $type-size-9;
+}
+
 /* ==========================================================================
    ARCHIVE
    ========================================================================== */
@@ -60,13 +81,13 @@
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-6;
-  
 
   & + p {
     text-indent: 0;
     text-align: justify;
   }
 }
+
 
 .archive__item-teaser {
   border-radius: $border-radius;

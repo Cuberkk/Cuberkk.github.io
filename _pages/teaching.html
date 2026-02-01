@@ -1,12 +1,59 @@
 ---
 layout: archive
-title: "Teaching"
+title: "Teaching and Leadership"
 permalink: /teaching/
 author_profile: true
 ---
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
+<!-- {% for post in site.teaching reversed %}
   {% include archive-single.html %}
-{% endfor %}
+{% endfor %} -->
+
+{% if site.teaching_category %}
+  {% for category in site.teaching_category %}
+
+    {%- comment -%} 先统计该 category 下的文章数量 {%- endcomment -%}
+    {% assign total = 0 %}
+    {% for post in site.teaching %}
+      {% if post.category == category[0] %}
+        {% assign total = total | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign title_shown = false %}
+    {% assign idx = 0 %}
+
+    {% case category[0] %}
+      {% when "teaching" %}{% assign prefix = "T" %}
+      {% when "leadership" %}{% assign prefix = "L" %}
+      {% else %}{% assign prefix = "P" %}
+    {% endcase %}
+
+    {% for post in site.teaching reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2>
+        <hr class="pubtitle-hr">
+        {% assign title_shown = true %}
+      {% endunless %}
+
+      {% assign idx = idx | plus: 1 %}
+      {% include archive-single.html pub_prefix=prefix pub_idx=idx %}
+
+      {%- comment -%} ⭐ 只有不是最后一个才加 hr {%- endcomment -%}
+      {% if idx < total %}
+        <hr class="title-hr">
+      {% endif %}
+
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.teaching reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
