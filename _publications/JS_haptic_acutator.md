@@ -3,9 +3,9 @@ title: "Three Degree-of-Freedom Soft Continuum Kinesthetic Haptic Display for Te
 collection: publications
 category: conferences
 permalink: /publication/JS_haptic_actuator
-excerpt: 'This paper is about fixing template issue #693.'
+excerpt: 'Sensory substitution is an effective approach for displaying stable haptic feedback to a teleoperator under time delay. In this paper, we present a soft pneumatic handheld kinesthetic feedback device for the index finger that is controlled using a constant curvature kinematic model.'
 date: 2024-11-16
-venue: 'GitHub Journal of Bugs'
+venue: 'IEEE Conference on Telepresence'
 paperurl: 'http://Cuberkk.github.io/files/JS2024/Three_Degree-of-Freedom_Soft_Continuum_Kinesthetic_Haptic_Display_for_Telemanipulation_Via_Sensory_Substitution_at_the_Finger.pdf'
 bibtexurl: 'http://Cuberkk.github.io/files/JS2024/JS2024.bib'
 citation: 'J. Su, K. Zuo and Z. Chua, "Three Degree-of-Freedom Soft Continuum Kinesthetic Haptic Display for Telemanipulation Via Sensory Substitution at the Finger," 2024 IEEE Conference on Telepresence, Pasadena, CA, USA, 2024, pp. 79-86.'
