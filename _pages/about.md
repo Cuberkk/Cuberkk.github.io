@@ -18,5 +18,8 @@ I am currently a 2nd-year Ph.D. candidate majoring in Electrical Engineering at 
 Research Interests:
 </p>
 <p class="main_text">
-My current research focus is to develop <strong>differentiable physical simulator</strong> for soft grippers. My research interests lies in vision-based sensing, soft haptic actuators, soft robotic grippers, physical simulation, and machine learning.
+My current research focus is to develop <strong>differentiable physical simulator</strong> for soft grippers. 
+</p>
+<p class="main_text">
+My broader research interests include vision-based sensing, soft haptic actuators, soft robotic grippers, physical simulation, and machine learning.
 </p>
