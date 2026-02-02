@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/KZ_2025_RAL
 excerpt: 'Grasp force estimation can help prevent robots from damaging delicate objects during manipulation and improve learning-based robotic control. In this paper, we developed a model-based visual force sensing approach for fin-ray-shaped gripper, which integrates iterative contact localization and demonstrates generalization to unseen objects.'
-cover_image_url: 'http://Cuberkk.github.io/files/KZ2026RAL/KZgripper.png'
+# cover_image_url: 'http://Cuberkk.github.io/files/KZ2026RAL/KZgripper.png'
 date: 2026-01-01
 venue: 'N/A (Under Review)'
 paperurl: 'http://Cuberkk.github.io/files/KZ2026RAL/RA_L_Camera_based_force_estimation.pdf'

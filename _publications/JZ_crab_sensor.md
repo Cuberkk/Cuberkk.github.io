@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/JZ_crab_sensor
 excerpt: 'Force sensing on the end effector is crucial for mobile, legged robots to adapt to varying terrain and manipulate objects in complex environments. In this paper, we demonstrate a low-cost solution to this problem that integrates four sets of strain gauges, analog-to-digital conversion, and data processing into a single leg of a crab-scale robot.'
-cover_image_url: 'http://Cuberkk.github.io/files/JZ2025/Robot&Dactyl1.png'
+# cover_image_url: 'http://Cuberkk.github.io/files/JZ2025/Robot&Dactyl1.png'
 date: 2025-11-14
 venue: 'IEEE Robotics and Automation Letters(RA-L)'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
