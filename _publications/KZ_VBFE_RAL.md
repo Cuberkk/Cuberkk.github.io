@@ -1,5 +1,5 @@
 ---
-title: "A Model-based Visual Contact Localization and Force Sensing System for Compliant Robotic Grippers with Generalization to Unseen Objects"
+title: "A Model-based Visual Contact Localization and Force Sensing System for Compliant Robotic Grippers"
 collection: publications
 category: manuscripts
 permalink: /publication/KZ_2025_RAL
