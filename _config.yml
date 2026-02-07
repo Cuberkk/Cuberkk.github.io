@@ -87,6 +87,8 @@ publication_category:
     title: 'Conference Papers'
 
 teaching_category:
+  services:
+    title: 'Academic Services'
   leadership:
     title: 'Leadership'
   teaching:

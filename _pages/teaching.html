@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Teaching and Leadership"
+title: "Service, Leadership & Teaching"
 permalink: /teaching/
 author_profile: true
 ---
@@ -28,6 +28,7 @@ author_profile: true
     {% case category[0] %}
       {% when "teaching" %}{% assign prefix = "T" %}
       {% when "leadership" %}{% assign prefix = "L" %}
+      {% when "services" %}{% assign prefix = "S" %}
       {% else %}{% assign prefix = "P" %}
     {% endcase %}
 
@@ -45,10 +46,10 @@ author_profile: true
       {% assign idx = idx | plus: 1 %}
       {% include archive-single.html pub_prefix=prefix pub_idx=idx %}
 
-      {%- comment -%} ⭐ 只有不是最后一个才加 hr {%- endcomment -%}
+      <!-- {%- comment -%} ⭐ 只有不是最后一个才加 hr {%- endcomment -%}
       {% if idx < total %}
         <hr class="title-hr">
-      {% endif %}
+      {% endif %} -->
 
     {% endfor %}
   {% endfor %}

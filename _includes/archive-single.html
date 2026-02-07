@@ -49,6 +49,7 @@
     {% endif %}
 
         {% if post.collection == 'teaching' %}
+        {% comment %}
           <p><span class="entry-box"> {{ post.type }}, <i>{{ post.venue }}</i>, <strong><em>{% if post.startdate %}
             {{ post.startdate |  date: "%b %Y" }} - {% if post.enddate and post.enddate != "present" %} 
             {{ post.enddate | date: "%b %Y" }}
@@ -61,6 +62,7 @@
             {{ post.date | default: "1900-01-01" | date: "%b %Y" }}
             {% endif %}
           </em></strong></span></p>
+          {% endcomment %}
         {% elsif post.collection == 'publications' %}
           <p><span class="entry-box">Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </span></p>
         {% elsif post.date %}
