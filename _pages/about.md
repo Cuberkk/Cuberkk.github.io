@@ -29,7 +29,7 @@ My broader research interests include vision-based sensing, soft haptic actuator
 
 <p class="subsection">Skills:</p>
 * <strong>Programming</strong>
-  * Python(PyTorch,Taichi,OpenCV,Open3D)
+  * Python (PyTorch,Taichi,OpenCV,Open3D)
   * C++
   * MATLAB
   * Git
@@ -43,7 +43,7 @@ My broader research interests include vision-based sensing, soft haptic actuator
   * 3D printing (FDM, SLA)
   * Soft robotic design and fabrication
 * <strong>Control & Instrumentation</strong>
-  * Closed-loopcontrol
+  * Closed-loop control
   * Fluidic actuation systems
   * Arduino-based prototyping
 * <strong>MachineLearning & Vision</strong>
