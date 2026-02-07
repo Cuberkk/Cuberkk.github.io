@@ -2,7 +2,7 @@
 title: "A Clinically Deployable Desktop Indenter System (Clindent)"
 collection: selected_projects
 permalink: /selected_projects/tonometry
-excerpt: 'Lymphedema is a chronic and progressive disease caused by the dysfunctional lymphatic system, resulting in excess fluid accumulation. An easy-to-accessTo develop a wearable device to evaluate the recovery of the patient longitutely. In this project, we developed a Clinically Deployable Desktop Indenter system (Clindent) to obtain in-vivo creep loading curves from limbs.'
+excerpt: 'Lymphedema is a chronic and progressive condition caused by dysfunction of the lymphatic system, leading to excessive fluid accumulation in soft tissues. In this project, we develop a clinically deployable desktop indenter system, termed Clindent, to noninvasively obtain in vivo creep loading curves from patient limbs, enabling longitudinal assessment of tissue mechanical properties during recovery.'
 advisor: Prof. Zonghe Chua
 venue: ERIE lab, CWRU
 startdate: 2025-06-01
