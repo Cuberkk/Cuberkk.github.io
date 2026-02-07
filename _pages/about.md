@@ -32,18 +32,24 @@ Publications
 
 Skills
 ======
-* <strong>Design, instrumentation, and control </strong>
-  * 3D printing: FDM and SLA printers
-  * Soft robot design, fabrication, and control (e.g., origami-inspired pneumatic grippers and passive fin-ray–shaped grippers).
-  * Physical simulation: Finite-Element Analysis (FEA), Extended Position-based Dynamics (XPBD).
-  * Machine learning, with a focus on computer vision applications.
-* Software
-  * Physical Simulations: SOFA, Abaqus
-  * CAD: Solidworks, Onshape
-  * IDES: Visual Studio, Matlab, Arduino
-* Computer programming
-  * Python: Pytorch, taichi, OpenCV, Open3d, etc.
-  * Git
+* <strong>Programming</strong>
+  * Python(PyTorch,Taichi,OpenCV,Open3D)
   * C++
-  * G-Code
-  * XML
+  * MATLAB
+  * Git
+* <strong>Robotics & Simulation</strong>
+  * ROS2
+  * SOFA, Abaqus
+  * Finite Element Analysis (FEA)
+  * Extended Position-Based Dynamics (XPBD)
+* <strong>Mechanical Design & Fabrication</strong>
+  * SolidWorks, Onshape, AutoCAD
+  * 3D printing (FDM, SLA)
+  * Soft robotic design and fabrication
+* <strong>Control & Instrumentation</strong>
+  * Closed-loopcontrol
+  * Fluidic actuation systems
+  * Arduino-based prototyping
+* <strong>MachineLearning & Vision</strong>
+  * Computer vision–focused machine learning
+  * Image-basedgeometry reconstruction

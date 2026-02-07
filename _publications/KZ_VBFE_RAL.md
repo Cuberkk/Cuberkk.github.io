@@ -3,7 +3,7 @@ title: "A Model-based Visual Contact Localization and Force Sensing System for C
 collection: publications
 category: manuscripts
 permalink: /publication/KZ_2025_RAL
-excerpt: 'The paper is currently <strong>Under Review</strong>. The pdf is available upon request.'
+excerpt: 'The paper is currently <strong>Unde Double-blinded Review</strong>. The pdf is available upon request.'
 # cover_image_url: 'http://Cuberkk.github.io/files/KZ2026RAL/KZgripper.png'
 date: 2026-01-01
 venue: 'N/A (Under Review)'
