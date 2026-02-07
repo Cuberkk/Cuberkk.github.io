@@ -6,7 +6,7 @@ excerpt: 'Traditional nurse training relies heavily on hands-on practice with re
 advisor: Prof. Zonghe Chua
 venue: ERIE lab, CWRU
 startdate: 2025-10-27
-enddate: present
+enddate: 2025-11-10
 videourl: '{{ site.baseurl }}/files/encounter_haptics/Encounter.mp4'
 ---
 
