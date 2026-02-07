@@ -14,8 +14,8 @@ main:
   - title: "Publications"
     url: /#publications_about
 
-  # - title: "Talks"
-  #   url: /talks/    
+  - title: "Ongoing Projects"
+    url: /selected_projects/    
 
   - title: "Service, Leadership & Teaching"
     url: /teaching/    

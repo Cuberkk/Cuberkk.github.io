@@ -237,6 +237,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  selected_projects:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -294,6 +297,15 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _selected_projects
+  - scope:
+      path: ""
+      type: selected_projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: false
 
 
 # Sass/SCSS

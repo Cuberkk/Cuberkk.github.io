@@ -1,0 +1,23 @@
+---
+layout: archive
+title: "Ongoing Projects"
+permalink: /selected_projects/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign idx = 0 %}
+{% assign prefix = "P" %}
+
+{% for post in site.selected_projects reversed %}
+
+  {% assign idx = idx | plus: 1 %}
+  {% include archive-single.html pub_prefix=prefix pub_idx=idx %}
+
+  {%- comment -%} ⭐ 只有不是最后一个才加 hr {%- endcomment -%}
+  {% if idx < total %}
+    <hr class="title-hr">
+  {% endif %}
+
+{% endfor %}
