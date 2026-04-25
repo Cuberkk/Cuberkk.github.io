@@ -6,7 +6,7 @@ permalink: /publication/KZ_2025_RAL
 excerpt: 'The paper is currently <strong>Unde Double-blinded Review</strong>. The pdf is available upon request.'
 # cover_image_url: 'http://Cuberkk.github.io/files/KZ2026RAL/KZgripper.png'
 date: 2026-01-01
-venue: 'N/A (Under Review)'
+venue: 'IEEE Robotics and Automation Letters'
 paperurl: 'http://Cuberkk.github.io/files/KZ2026/RA_L_Camera_based_force_estimation.pdf'
 bibtexurl: 'http://Cuberkk.github.io/files/KZ2026/KZ2026RAL.bib'
 citation: '<strong>K. Zuo<sup>*</sup></strong>, S. Yang and Z. Chua, "A Model-based Visual Contact Localization and Force Sensing System for Compliant Robotic Grippers with Generalization to Unseen Objects," in TBD, Jan. 2026.'
@@ -17,7 +17,7 @@ Grasp force estimation can help prevent robots from damaging delicate objects du
 </p>
 
 <figure class="paper-figure-png">
-  <img src="http://Cuberkk.github.io/files/KZ2026RAL/KZgripper.png" alt="System overview">
+  <img src="http://Cuberkk.github.io/files/KZ2026/KZgripper.png" alt="System overview">
   <figcaption>
     Images of the physical grippers and their digital twins when grasping an asymmetric object at lower contact position.
   </figcaption>
