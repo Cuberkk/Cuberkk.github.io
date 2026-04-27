@@ -9,7 +9,7 @@ date: 2026-01-01
 venue: 'IEEE Robotics and Automation Letters'
 paperurl: 'http://Cuberkk.github.io/files/KZ2026/April_2026_RA_L_Camera_based_force_estimation_final_version.pdf'
 bibtexurl: 'http://Cuberkk.github.io/files/KZ2026/KZ2026RAL.bib'
-citation: '<strong>K. Zuo<sup>*</sup></strong>, S. Yang and Z. Chua, "A Model-based Visual Contact Localization and Force Sensing System for Compliant Robotic Grippers with Generalization to Unseen Objects," in in IEEE Robotics and Automation Letters, Apr. 2026.'
+citation: '<strong>K. Zuo<sup>*</sup></strong>, S. Yang and Z. Chua, "A Model-based Visual Contact Localization and Force Sensing System for Compliant Robotic Grippers" in in IEEE Robotics and Automation Letters, Apr. 2026.'
 disable_link: True
 ---
 <p class="main_text">
