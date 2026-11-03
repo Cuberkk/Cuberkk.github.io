@@ -31,7 +31,7 @@ logo = "/logos/hust.png"
 
 [[items]]
 title = "Conference Reviewer"
-subtitle = "IEEE Transactions on Instrumentation and Measurement"
+subtitle = "IEEE TIM (Transactions on Instrumentation and Measurement)"
 date = "May 2026"
 content = "Reviewed **one** journal submission."
 section = "Academic Service"
@@ -41,7 +41,7 @@ logo = "/logos/ieee.png"
 
 [[items]]
 title = "Conference Reviewer"
-subtitle = "IEEE RAS/EMBS International Conference on Biomedical Robotics and Biomechatronics"
+subtitle = "IEEE BioRob (RAS/EMBS International Conference on Biomedical Robotics and Biomechatronics)"
 date = "Mar 2026"
 content = "Reviewed **one** conference submission."
 section = "Academic Service"
