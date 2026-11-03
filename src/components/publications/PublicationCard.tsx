@@ -21,9 +21,9 @@ export default function PublicationCard({ publication: pub, index }: { publicati
     }
   }
   return (
-    <article className="publication-card rounded-2xl border border-neutral-200 bg-white p-5 transition-colors hover:border-accent/50 dark:border-white/10 dark:bg-neutral-900 sm:p-6">
-      <div className={pub.preview ? 'grid gap-5 sm:grid-cols-[160px_minmax(0,1fr)]' : ''}>
-        {pub.preview && <div className="flex min-h-36 items-center justify-center overflow-hidden rounded-xl border border-neutral-100 bg-white p-2"><Image src={pub.preview.startsWith('/') || pub.preview.startsWith('http') ? pub.preview : `/papers/${pub.preview}`} alt={`Research overview: ${pub.title}`} width={360} height={240} className="max-h-48 w-full object-contain" /></div>}
+    <article className="publication-card rounded-2xl border border-neutral-200 bg-white p-4 transition-colors hover:border-accent/50 dark:border-white/10 dark:bg-neutral-900 sm:p-5">
+      <div className={pub.preview ? 'publication-body publication-body--preview' : 'publication-body'}>
+        {pub.preview && <div className="self-start overflow-hidden rounded-xl border border-neutral-100 bg-white p-1"><Image src={pub.preview.startsWith('/') || pub.preview.startsWith('http') ? pub.preview : `/papers/${pub.preview}`} alt={`Research overview: ${pub.title}`} width={720} height={480} className="block h-auto w-full" /></div>}
         <div className="min-w-0">
           <div className="mb-2 flex items-start justify-between gap-3"><p className="text-[10px] font-bold uppercase tracking-wider text-accent-dark dark:text-accent">{pub.journal || pub.conference || pub.type} · {pub.year}</p><span className="text-xs tabular-nums text-neutral-400">{String(index + 1).padStart(2, '0')}</span></div>
           <h3 className="mb-2 text-base font-semibold leading-snug text-primary">{pub.projectUrl ? <Link href={pub.projectUrl} className="hover:text-accent-dark"><FormattedBibTeXText nodes={pub.titleNodes} fallback={pub.title} /></Link> : <FormattedBibTeXText nodes={pub.titleNodes} fallback={pub.title} />}</h3>

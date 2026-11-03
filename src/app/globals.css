@@ -246,6 +246,31 @@ body {
   border-color: rgba(148, 163, 184, 0.24);
 }
 
+/* Consistent page width, with more room for research figures on desktop. */
+.site-shell {
+  width: 100%;
+  max-width: 1360px;
+  margin-inline: auto;
+}
+
+/* Adapt publication columns to the card's width, including beside the profile. */
+.publication-card {
+  container: publication / inline-size;
+}
+
+.publication-body {
+  display: grid;
+  align-items: start;
+  gap: 1.25rem;
+}
+
+@container publication (min-width: 600px) {
+  .publication-body--preview {
+    grid-template-columns: minmax(0, clamp(220px, 38cqw, 360px)) minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+}
+
 /* Academic reading and keyboard navigation. */
 :focus-visible { outline: 2px solid var(--accent-dark); outline-offset: 4px; }
 .publication-details[open] { flex-basis: 100%; }

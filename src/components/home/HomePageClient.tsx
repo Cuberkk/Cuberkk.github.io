@@ -57,8 +57,8 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-background min-h-screen">
-      <div className="grid grid-cols-1 lg:grid-cols-[280px_minmax(0,1fr)] gap-12 lg:gap-16">
+    <div className="site-shell px-4 sm:px-6 lg:px-8 py-12 bg-background min-h-screen">
+      <div className="grid grid-cols-1 lg:grid-cols-[264px_minmax(0,1fr)] gap-10 xl:gap-12">
         <div className="min-w-0">
           <Profile
             author={data.author}
