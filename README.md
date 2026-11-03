@@ -52,7 +52,7 @@ npm start
 
 Select **GitHub Actions** in repository **Settings → Pages → Build and deployment → Source**.
 
-The workflow `.github/workflows/pages-deploy.yml` installs dependencies with `npm ci`, builds the static site, and uploads `out/`. Pushes to `main`, `master`, and `redesign/prism` are built; only `main` and `master` deploy. Pull requests targeting those two branches are also built.
+The workflow `.github/workflows/pages-deploy.yml` installs dependencies with `npm ci`, builds the static site, and uploads `out/`. Pushes to `main`, `master`, and `redesign/prism` build and deploy the site. Pull requests targeting `main` or `master` are built without deploying.
 
 The configuration targets the `Cuberkk.github.io` root domain, with trailing-slash URLs and unoptimized static images. `scripts/export-compat.mjs` generates `.nojekyll` and redirects for previous About, Projects, Teaching, and CV addresses. The detail-page routes preserve existing paper and project links.
 
