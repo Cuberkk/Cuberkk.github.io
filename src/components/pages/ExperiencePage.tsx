@@ -1,7 +1,7 @@
 'use client';
 
-import Link from 'next/link';
 import Image from 'next/image';
+import LabLinkedText from '@/components/LabLinkedText';
 import { useId, useRef, useState, type KeyboardEvent } from 'react';
 import { BookOpen, GraduationCap, Handshake, Trophy, Users, BriefcaseBusiness, type LucideIcon } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
@@ -65,7 +65,7 @@ export default function ExperiencePage({ config }: { config: CardPageConfig }) {
                             <span className={`flex h-14 w-14 items-center justify-center overflow-hidden rounded-xl border border-neutral-200 sm:h-16 sm:w-16 dark:border-white/10 ${item.logo ? 'bg-white p-1.5' : 'bg-neutral-50 text-accent-dark dark:text-accent'}`}>
                                 {item.logo ? <Image src={item.logo} alt="" width={64} height={64} className="h-full w-full object-contain" /> : <Icon className="h-5 w-5" aria-hidden="true" />}
                             </span>
-                            <div className="min-w-0"><h3 className="font-semibold leading-snug text-primary">{item.link ? <Link href={item.link} className="transition-colors hover:text-accent-dark dark:hover:text-accent">{item.title}</Link> : item.title}</h3>{item.subtitle && <p className="mt-1 text-sm font-medium text-accent-dark dark:text-accent">{item.subtitle}</p>}{item.content && <div className="mt-2 text-sm leading-relaxed text-neutral-600"><ReactMarkdown components={cardMarkdownComponents}>{item.content}</ReactMarkdown></div>}</div>
+                            <div className="min-w-0"><h3 className="font-semibold leading-snug text-primary"><LabLinkedText text={item.title} href={item.link} /></h3>{item.subtitle && <p className="mt-1 text-sm font-medium text-accent-dark dark:text-accent"><LabLinkedText text={item.subtitle} /></p>}{item.content && <div className="mt-2 text-sm leading-relaxed text-neutral-600"><ReactMarkdown components={cardMarkdownComponents}>{item.content}</ReactMarkdown></div>}</div>
                             {item.date && <p className="col-start-2 whitespace-nowrap text-xs font-medium text-neutral-500 sm:col-start-auto sm:pt-1">{item.date}</p>}
                         </article>;
                     })}

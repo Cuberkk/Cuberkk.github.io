@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
+import LabLinkedText from '@/components/LabLinkedText';
 import { ArrowUpRight } from 'lucide-react';
 import ReactMarkdown, { type Components } from 'react-markdown';
 import { CardPageConfig } from '@/types/page';
@@ -51,9 +52,9 @@ export default function CardPage({ config, embedded = false }: { config: CardPag
                                     {item.date && <span>{item.date}</span>}
                                 </div>
                                 <h3 className="text-xl font-serif font-bold leading-snug text-primary">
-                                    {item.link ? <Link href={item.link} className="transition-colors hover:text-accent-dark dark:hover:text-accent">{item.title}</Link> : item.title}
+                                    <LabLinkedText text={item.title} href={item.link} />
                                 </h3>
-                                {item.subtitle && <p className="mt-2 text-sm font-medium text-accent-dark dark:text-accent">{item.subtitle}</p>}
+                                {item.subtitle && <p className="mt-2 text-sm font-medium text-accent-dark dark:text-accent"><LabLinkedText text={item.subtitle} /></p>}
                                 {item.content && <div className="mt-3 text-sm leading-relaxed text-neutral-600"><ReactMarkdown components={cardMarkdownComponents}>{item.content}</ReactMarkdown></div>}
                                 {item.tags && item.tags.length > 0 && <div className="mt-4 flex flex-wrap gap-2">{item.tags.map(tag => <span key={tag} className="rounded-full border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-[11px] text-neutral-500 dark:border-white/10">{tag}</span>)}</div>}
                                 {item.link && <Link href={item.link} className="mt-4 inline-flex items-center gap-1 text-xs font-semibold text-accent-dark dark:text-accent">Explore project <ArrowUpRight className="h-3.5 w-3.5" aria-hidden="true" /></Link>}

@@ -1,6 +1,6 @@
 type = "card"
 title = "Selected Projects"
-description = "Soft robotic devices, physical simulation, and human–robot interaction at the ERIE Lab, CWRU."
+description = "Soft robotic devices, physical simulation, and human–robot interaction at the [ERIE Lab](https://enhanced-telerobotics.github.io/index.html), CWRU."
 
 [[items]]
 title = "Encounter Haptics for Nurse Training in Virtual Reality"
