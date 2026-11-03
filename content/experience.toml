@@ -30,7 +30,7 @@ tags = ["Education"]
 logo = "/logos/hust.png"
 
 [[items]]
-title = "Reviewer, IEEE Transactions on Instrumentation and Measurement"
+title = "Conference Reviewer"
 subtitle = "IEEE Transactions on Instrumentation and Measurement"
 date = "May 2026"
 content = "Reviewed **one** journal submission."
@@ -40,7 +40,7 @@ link = "/teaching/2026-tim"
 logo = "/logos/ieee.png"
 
 [[items]]
-title = "Reviewer, IEEE RAS/EMBS International Conference on Biomedical Robotics and Biomechatronics"
+title = "Conference Reviewer"
 subtitle = "IEEE RAS/EMBS International Conference on Biomedical Robotics and Biomechatronics"
 date = "Mar 2026"
 content = "Reviewed **one** conference submission."
@@ -80,7 +80,7 @@ link = "/teaching/2025-bay-student-visit"
 logo = "/logos/cwru.ico"
 
 [[items]]
-title = "Reviewer, IEEE Conference on Telepresence 2025"
+title = "Conference Reviewer"
 subtitle = "IEEE Conference on Telepresence 2025"
 date = "May 2025"
 content = "Reviewed **three** conference submissions."
@@ -90,7 +90,7 @@ link = "/teaching/2025-telepresence"
 logo = "/logos/ieee.png"
 
 [[items]]
-title = "Reviewer, CWRU Undergraduate Research Summer Application"
+title = "Undergraduate Research Proposal Reviewer"
 subtitle = "CWRU Undergraduate Research Summer Application"
 date = "Mar 2025"
 content = "Reviewed **five** research proposal applications."
