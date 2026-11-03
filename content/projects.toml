@@ -1,0 +1,30 @@
+type = "card"
+title = "Selected Projects"
+description = "Soft robotic devices, physical simulation, and human–robot interaction at the ERIE Lab, CWRU."
+
+[[items]]
+title = "Encounter Haptics for Nurse Training in Virtual Reality"
+subtitle = "ERIE lab, CWRU"
+date = "Oct 2025 – Nov 2025"
+content = "Traditional nurse training relies heavily on hands-on practice with real patients, which is constrained by clinical availability and safety considerations. In this project, we develop a VR-based encounter haptics system using a Kinova 7-DOF robotic arm to provide realistic physical interaction and force feedback for immersive nurse training.\n\n**Advisor:** Prof. Zonghe Chua\n\n[Watch demonstration video](/files/encounter_haptics/Encounter.mp4)"
+tags = ["Research"]
+link = "/selected_projects/encounter_haptic"
+image = "/files/encounter_haptics/encounter-haptics-cover.jpg"
+
+[[items]]
+title = "Synergy-Based Force Signal Compression for Human In-Hand Manipulation"
+subtitle = "ERIE lab, CWRU"
+date = "Sep 2025 – Present"
+content = "In-hand manipulation plays a critical role in high-performance teleoperation and immersive, embodied virtual interactions. In this project, we embed three ATI force/torque sensors into an in-hand-sized object to capture multi-finger manipulation forces and investigate preliminary synergy-based force signal compression strategies.\n\n**Advisor:** Prof. Zonghe Chua"
+tags = ["Research"]
+link = "/selected_projects/in_hand_manipulation"
+image = "/files/finger_manipulation/finger_manipulation.png"
+
+[[items]]
+title = "A Clinically Deployable Desktop Indenter System (Clindent)"
+subtitle = "ERIE lab, CWRU"
+date = "Jun 2025 – Present"
+content = "Lymphedema is a chronic and progressive condition caused by dysfunction of the lymphatic system, leading to excessive fluid accumulation in soft tissues. In this project, we develop a clinically deployable desktop indenter system, termed Clindent, to noninvasively obtain in vivo creep loading curves from patient limbs, enabling longitudinal assessment of tissue mechanical properties during recovery.\n\n**Advisor:** Prof. Zonghe Chua"
+tags = ["Research"]
+link = "/selected_projects/tonometry"
+image = "/files/tonometry/Tonometry.png"

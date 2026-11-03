@@ -1,0 +1,62 @@
+[site]
+title = "Kaiwen Zuo"
+description = "Ph.D. candidate in Electrical Engineering at Case Western Reserve University. Research in differentiable simulation, vision-based sensing, and soft robotics."
+favicon = "/favicon.svg"
+last_updated = "November 3, 2026"
+
+[author]
+name = "Kaiwen Zuo"
+title = "Ph.D. Candidate · Electrical Engineering"
+institution = "Case Western Reserve University"
+avatar = "/images/kaiwen.png"
+
+[social]
+email = "kxz365@case.edu"
+location = "Cleveland, OH, US"
+google_scholar = "https://scholar.google.com/citations?hl=en&user=fLJdinMAAAAJ"
+orcid = "https://orcid.org/0009-0009-3471-7361"
+github = "https://github.com/Cuberkk"
+linkedin = "https://www.linkedin.com/in/kaiwen-zuo-4b168527a"
+
+[features]
+enable_likes = false
+enable_one_page_mode = false
+
+[i18n]
+enabled = false
+locales = ["en"]
+default_locale = "en"
+mode = "fixed"
+fixed_locale = "en"
+persist = false
+switcher = false
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "Projects"
+type = "page"
+target = "projects"
+href = "/projects"
+
+[[navigation]]
+title = "Experience"
+type = "page"
+target = "experience"
+href = "/experience"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"

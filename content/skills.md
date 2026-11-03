@@ -1,0 +1,5 @@
+- **Programming:** Python (PyTorch, Taichi, OpenCV, Open3D), C++, MATLAB, Git.
+- **Robotics & Simulation:** ROS 2, SOFA, Abaqus, Finite Element Analysis (FEA), Extended Position-Based Dynamics (XPBD).
+- **Mechanical Design & Fabrication:** SolidWorks, Onshape, AutoCAD, 3D printing (FDM, SLA), soft robotic design and fabrication.
+- **Control & Instrumentation:** Closed-loop control, fluidic actuation systems, Arduino-based prototyping.
+- **Machine Learning & Vision:** Computer vision–focused machine learning, image-based geometry reconstruction.

@@ -1,0 +1,8 @@
+'use client';
+import Link from 'next/link';
+import Image from 'next/image';
+import { FlaskConical, ArrowUpRight } from 'lucide-react';
+import { CardItem } from '@/types/page';
+export default function FeaturedProjects({ projects }: { projects: CardItem[] }) {
+  return <section id="recent-projects"><div className="mb-5 flex items-center justify-between"><h2 className="font-serif text-2xl font-bold text-primary">Recent Projects</h2><Link href="/projects/" className="text-xs font-semibold text-accent-dark hover:text-primary dark:text-accent">View All →</Link></div><div className="overflow-hidden rounded-2xl border border-neutral-200 bg-white dark:border-white/10 dark:bg-neutral-900">{projects.map((project, index) => <Link key={project.title} href={project.link || '/projects/'} className="group flex items-center gap-4 border-b border-neutral-100 p-4 last:border-0 hover:bg-accent/5 dark:border-white/10"><span className="flex h-14 w-16 shrink-0 items-center justify-center overflow-hidden rounded-lg border border-neutral-100 bg-white text-accent-dark">{project.image ? <Image src={project.image} alt="" width={64} height={56} className="h-full w-full object-contain p-1" /> : <FlaskConical size={24} aria-hidden="true" />}</span><span className="min-w-0 flex-1"><span className="mb-1 block text-[10px] font-semibold uppercase tracking-wider text-neutral-400">{String(index+1).padStart(2,'0')} / {project.date}</span><span className="block text-sm font-semibold leading-snug text-primary group-hover:text-accent-dark">{project.title}</span></span><ArrowUpRight size={16} className="shrink-0 text-accent-dark" aria-hidden="true" /></Link>)}</div></section>;
+}

@@ -1,0 +1,119 @@
+type = "card"
+title = "Experience"
+description = "Academic background, research, teaching, service, and honors."
+
+[[items]]
+title = "Ph.D. in Electrical Engineering"
+subtitle = "Case Western Reserve University"
+date = "Sep 2024 – Present"
+content = "Advised by [Prof. Zonghe Chua](https://case.edu/engineering/about/faculty-and-staff-directory/zonghe-chua) in the ERIE Lab."
+section = "Education"
+tags = ["Education"]
+logo = "/logos/cwru.ico"
+
+[[items]]
+title = "M.S. in Mechanical Engineering"
+subtitle = "Case Western Reserve University"
+date = "Sep 2022 – May 2024"
+content = "Advised by Prof. Zonghe Chua."
+section = "Education"
+tags = ["Education"]
+logo = "/logos/cwru.ico"
+
+[[items]]
+title = "B.Eng. in Mechanical Design, Manufacturing and Automation"
+subtitle = "Huazhong University of Science and Technology"
+date = "Sep 2018 – May 2022"
+content = "Wuhan, China."
+section = "Education"
+tags = ["Education"]
+logo = "/logos/hust.png"
+
+[[items]]
+title = "Reviewer, IEEE Transactions on Instrumentation and Measurement"
+subtitle = "IEEE Transactions on Instrumentation and Measurement"
+date = "May 2026"
+content = "Reviewed **one** journal submission."
+section = "Academic Service"
+tags = ["Academic Service"]
+link = "/teaching/2026-tim"
+logo = "/logos/ieee.png"
+
+[[items]]
+title = "Reviewer, IEEE RAS/EMBS International Conference on Biomedical Robotics and Biomechatronics"
+subtitle = "IEEE RAS/EMBS International Conference on Biomedical Robotics and Biomechatronics"
+date = "Mar 2026"
+content = "Reviewed **one** conference submission."
+section = "Academic Service"
+tags = ["Academic Service"]
+link = "/teaching/2026-biorob"
+logo = "/logos/ieee.png"
+
+[[items]]
+title = "Presenter, Human Fusion Institute (HFI) Open House"
+subtitle = "CWRU, Electrical Engineering (EE)"
+date = "Oct 2025"
+content = "Demonstrated a vision-based contact localization and force estimation system integrated with a pneumatic fingertip actuator to visiting **high school students**."
+section = "Leadership"
+tags = ["Leadership"]
+link = "/teaching/2025-HFI-open-house"
+logo = "/logos/hfi.png"
+
+[[items]]
+title = "Teaching Assistant, ECSE 246: Signal and System"
+subtitle = "CWRU, Electrical, Computer and Systems Engineering (ECSE)"
+date = "Aug 2025 – Dec 2025"
+content = "Led recitation section and office hours for a class of **75** students. Also served as a grader for exams."
+section = "Teaching"
+tags = ["Teaching"]
+link = "/teaching/2025Fall"
+logo = "/logos/cwru.ico"
+
+[[items]]
+title = "Coordinator, ERIE lab tour"
+subtitle = "CWRU, Electrical Engineering (EE)"
+date = "Jun 2025"
+content = "Coordinated and guided **24** Bay STEM Academy students through a lab tour."
+section = "Leadership"
+tags = ["Leadership"]
+link = "/teaching/2025-bay-student-visit"
+logo = "/logos/cwru.ico"
+
+[[items]]
+title = "Reviewer, IEEE Conference on Telepresence 2025"
+subtitle = "IEEE Conference on Telepresence 2025"
+date = "May 2025"
+content = "Reviewed **three** conference submissions."
+section = "Academic Service"
+tags = ["Academic Service"]
+link = "/teaching/2025-telepresence"
+logo = "/logos/ieee.png"
+
+[[items]]
+title = "Reviewer, CWRU Undergraduate Research Summer Application"
+subtitle = "CWRU Undergraduate Research Summer Application"
+date = "Mar 2025"
+content = "Reviewed **five** research proposal applications."
+section = "Academic Service"
+tags = ["Academic Service"]
+link = "/teaching/2025-cwru-undergraduate-research"
+logo = "/logos/cwru.ico"
+
+[[items]]
+title = "Grader, EMAE 350 & EMAE 351"
+subtitle = "CWRU, Mechanical & Aerospace Engineering (EMAE)"
+date = "Aug 2023 – Dec 2023"
+content = "Served as a grader for assignments and exams of **32** students.\n\n\n\nPS: **EMAE 350:** Mechanical Engineering Analysis, **EMAE 351:** Control of Mechanical System"
+section = "Teaching"
+tags = ["Teaching"]
+link = "/teaching/2023Fall"
+logo = "/logos/cwru.ico"
+
+[[items]]
+title = "Graduate Dean’s Instructional Excellence Award"
+subtitle = "Case Western Reserve University"
+date = "2026"
+content = ""
+section = "Awards"
+tags = ["Awards"]
+logo = "/logos/cwru.ico"

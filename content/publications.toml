@@ -1,0 +1,4 @@
+type = "publication"
+title = "Publications"
+description = "Research in robot sensing, soft robotics, and haptic interfaces."
+source = "publications.bib"

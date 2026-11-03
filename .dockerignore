@@ -1,0 +1,8 @@
+.git
+.next
+out
+node_modules
+local
+.DS_Store
+*.tsbuildinfo
+.env*.local
